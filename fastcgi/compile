@@ -1,0 +1,5 @@
+g++ -Idependancies\libfcgi\include -Ldependancies -O2 *.cpp -lfcgi
+
+g++ test.cpp -lfcgi++ -lfcgi -o hello_world
+
+g++ testmysql.cpp -lfcgi++ -lfcgi -lmysqlcppconn -o testmysql
